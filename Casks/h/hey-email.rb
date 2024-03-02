@@ -10,7 +10,7 @@ cask "hey-email" do
     name "HEY Email"
     desc "HEY email client"
     homepage "https://www.hey.com"
-
+    auto_updates true
     depends_on macos: ">= :catalina"
 
     app "HEY.app"
